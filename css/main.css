@@ -28,7 +28,7 @@ main h2{
 	background:#007cff;
 	color:white;
 	text-align:center;
-	font-size:3vw;
+	font-size:2.5vw;
 	margin:30px 20px 20px;
 }
 main p{
@@ -73,6 +73,7 @@ th{
 footer{
 	text-align:center;
 	background:#007cff;
-	font-size:3vw;
+	font-size:2vw;
+	color:white;
 	margin:15px 10px 10px;
 }

@@ -6,7 +6,7 @@ public class Genkidama{
 			System.out.println("地球のみんな、オラに元気を分けてくれ! yes/no> ");
 			String judgeG = new Scanner(System.in).nextLine();
 			if(judgeG.equals("yes")){
-				int index = genkiR(genki);
+				int index = genkiR();
 				genki = genki + index;
 			}else if(judgeG.equals("no")){
 				System.out.printf("元気%d!フリーザにぶつけますか? yes/no> ",genki);
@@ -26,7 +26,7 @@ public class Genkidama{
 			}
 		}
 	}
-	public static int genkiR(int genki){
+	public static int genkiR(){
 		int index = new Random().nextInt(30)+1;
 		System.out.printf("元気が%d溜まった!%n",index);
 		return index;
